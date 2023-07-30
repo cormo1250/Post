@@ -1,0 +1,301 @@
+{
+	"info": {
+		"_postman_id": "284ee0d4-d125-46fe-a1a2-3d04d5a54075",
+		"name": "Trello",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CreateBoard",
+			"_postman_id": "432ffd3e-dd4a-4a63-baf0-4696fbac2272",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/?name=TablicaTestowa&key=ea49ba6d94dee5eadd73d24a3a0a17de&token=ATTA1f29a2b2a6e7a7294c8d029034284dd18e297cf62bf2d55d8ab1b595bd7ff0ad4AF0462E",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "TablicaTestowa"
+						},
+						{
+							"key": "key",
+							"value": "ea49ba6d94dee5eadd73d24a3a0a17de"
+						},
+						{
+							"key": "token",
+							"value": "ATTA1f29a2b2a6e7a7294c8d029034284dd18e297cf62bf2d55d8ab1b595bd7ff0ad4AF0462E"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CrateList",
+			"_postman_id": "13245021-857f-4728-bd17-13b7bded547a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/lists?name=Testing&idBoard=64c630428c2575d3bfd0cca5&key=ea49ba6d94dee5eadd73d24a3a0a17de&token=ATTA1f29a2b2a6e7a7294c8d029034284dd18e297cf62bf2d55d8ab1b595bd7ff0ad4AF0462E",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"lists"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Testing"
+						},
+						{
+							"key": "idBoard",
+							"value": "64c630428c2575d3bfd0cca5"
+						},
+						{
+							"key": "key",
+							"value": "ea49ba6d94dee5eadd73d24a3a0a17de"
+						},
+						{
+							"key": "token",
+							"value": "ATTA1f29a2b2a6e7a7294c8d029034284dd18e297cf62bf2d55d8ab1b595bd7ff0ad4AF0462E"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateList2",
+			"_postman_id": "968dee74-3184-4e89-9755-9171ab48db5c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/lists?name=Testing&idBoard=64c630428c2575d3bfd0cca5&key=ea49ba6d94dee5eadd73d24a3a0a17de&token=ATTA1f29a2b2a6e7a7294c8d029034284dd18e297cf62bf2d55d8ab1b595bd7ff0ad4AF0462E",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"lists"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Testing"
+						},
+						{
+							"key": "idBoard",
+							"value": "64c630428c2575d3bfd0cca5"
+						},
+						{
+							"key": "key",
+							"value": "ea49ba6d94dee5eadd73d24a3a0a17de"
+						},
+						{
+							"key": "token",
+							"value": "ATTA1f29a2b2a6e7a7294c8d029034284dd18e297cf62bf2d55d8ab1b595bd7ff0ad4AF0462E"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Newww",
+			"_postman_id": "8b8a7349-92eb-4099-b6a2-2d8762fbc70a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "CreateCard",
+			"_postman_id": "5b5afb56-e877-446b-81d8-19bacb9e9f4a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/cards?idList=64c631c9084b1325bfa4bdc1&key={{APIKey}}&token={{Token}}&name=Pierwsza Kartka&desc=pierwsze desription",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards"
+					],
+					"query": [
+						{
+							"key": "idList",
+							"value": "64c631c9084b1325bfa4bdc1"
+						},
+						{
+							"key": "key",
+							"value": "{{APIKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "name",
+							"value": "Pierwsza Kartka",
+							"type": "text"
+						},
+						{
+							"key": "desc",
+							"value": "pierwsze desription",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateCard2",
+			"_postman_id": "d0fa3399-f77e-4415-9ccb-35342987e6bc",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "CreateChecklis",
+			"_postman_id": "efac1f06-ceaf-41d2-b176-cd5a427e574d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "ChecklistUpdate",
+			"_postman_id": "41849f47-5cff-4c2e-8f78-4aa3695061e1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "CreateLabel",
+			"_postman_id": "63e3d1cc-4b27-4b9b-b550-2496e287c28e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteCard",
+			"_postman_id": "108130a6-2723-43c1-806a-63bd7672d2ee",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "CreateOrganization",
+			"_postman_id": "284bc128-b6e1-4f67-9f2c-21d9601c9c98",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "GetBoards",
+			"_postman_id": "a30ff1d1-d423-4308-8cbc-5b734bf3c008",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "CreateBoardInOrganization",
+			"_postman_id": "a72859f8-be68-4988-b853-e0555c05191d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
