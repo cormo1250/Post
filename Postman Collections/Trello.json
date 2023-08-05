@@ -465,7 +465,7 @@
 			"response": []
 		},
 		{
-			"name": "CreateListOrganization Copy",
+			"name": "CreateListOrganizationTesting",
 			"id": "e1848f26-3767-4e9b-9d28-b449342801b9",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
