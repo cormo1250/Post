@@ -371,6 +371,53 @@
 			"response": []
 		},
 		{
+			"name": "CreateNewCardOrganizationZad2",
+			"id": "fe54b669-5b73-4f79-8c81-92be9a954ee3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/cards?idList=64ce2c1bf6a850ab3255e2b4&key={{APIKey}}&token={{Token}}&name=Zadanie1&desc=Zadanie pierwsze",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards"
+					],
+					"query": [
+						{
+							"key": "idList",
+							"value": "64ce2c1bf6a850ab3255e2b4"
+						},
+						{
+							"key": "key",
+							"value": "{{APIKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "name",
+							"value": "Zadanie1"
+						},
+						{
+							"key": "desc",
+							"value": "Zadanie pierwsze"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "CreateListOrganizationDone",
 			"id": "5c1d84df-ed2e-4a36-88e1-d9c66dccb0d7",
 			"protocolProfileBehavior": {
