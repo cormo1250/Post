@@ -738,6 +738,138 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "AddChecklistZad4",
+			"id": "03714a6f-7c47-4d7c-b629-5098702a128d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/checklists?idCard=64ce2cd7eec864dd66b83551&key={{APIKey}}&token={{Token}}&name=Checklista1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"checklists"
+					],
+					"query": [
+						{
+							"key": "idCard",
+							"value": "64ce2cd7eec864dd66b83551"
+						},
+						{
+							"key": "key",
+							"value": "{{APIKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "name",
+							"value": "Checklista1",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddChecklistZad1 Copy 2",
+			"id": "af201a51-5307-4303-b37c-7e10366ec25f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/checklists?idCard=64ce2cd7eec864dd66b83551&key={{APIKey}}&token={{Token}}&name=Checklista1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"checklists"
+					],
+					"query": [
+						{
+							"key": "idCard",
+							"value": "64ce2cd7eec864dd66b83551"
+						},
+						{
+							"key": "key",
+							"value": "{{APIKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "name",
+							"value": "Checklista1",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddChecklistZad1 Copy 3",
+			"id": "829d8f13-702c-477e-85c3-336e2e90fa77",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/checklists?idCard=64ce2cd7eec864dd66b83551&key={{APIKey}}&token={{Token}}&name=Checklista1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"checklists"
+					],
+					"query": [
+						{
+							"key": "idCard",
+							"value": "64ce2cd7eec864dd66b83551"
+						},
+						{
+							"key": "key",
+							"value": "{{APIKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "name",
+							"value": "Checklista1",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
