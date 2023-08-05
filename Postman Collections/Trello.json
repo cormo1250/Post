@@ -564,7 +564,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/lists?name=Done&idBoard=64c65257df251a6d9f63fd72&key={{APIKey}}&token={{Token}}",
+					"raw": "https://api.trello.com/1/lists?name=ToDo&idBoard=64c65257df251a6d9f63fd72&key={{APIKey}}&token={{Token}}",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -578,7 +578,7 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "Done"
+							"value": "ToDo"
 						},
 						{
 							"key": "idBoard",
