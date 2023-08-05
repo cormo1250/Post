@@ -371,6 +371,100 @@
 			"response": []
 		},
 		{
+			"name": "CreateNewCardOrganization Copy",
+			"id": "644551ac-5c0c-4a33-ac81-3cc646723e24",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/cards?idList=64ce2c1bf6a850ab3255e2b4&key={{APIKey}}&token={{Token}}&name=Zadanie1&desc=Zadanie pierwsze",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards"
+					],
+					"query": [
+						{
+							"key": "idList",
+							"value": "64ce2c1bf6a850ab3255e2b4"
+						},
+						{
+							"key": "key",
+							"value": "{{APIKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "name",
+							"value": "Zadanie1"
+						},
+						{
+							"key": "desc",
+							"value": "Zadanie pierwsze"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateNewCardOrganizationZad3",
+			"id": "2879c8f6-9ebd-44d3-a442-c12a50d3c612",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/cards?idList=64ce2c1bf6a850ab3255e2b4&key={{APIKey}}&token={{Token}}&name=Zadanie1&desc=Zadanie pierwsze",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards"
+					],
+					"query": [
+						{
+							"key": "idList",
+							"value": "64ce2c1bf6a850ab3255e2b4"
+						},
+						{
+							"key": "key",
+							"value": "{{APIKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "name",
+							"value": "Zadanie1"
+						},
+						{
+							"key": "desc",
+							"value": "Zadanie pierwsze"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "CreateNewCardOrganizationZad2",
 			"id": "fe54b669-5b73-4f79-8c81-92be9a954ee3",
 			"protocolProfileBehavior": {
