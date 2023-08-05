@@ -318,8 +318,40 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/?name=nowazorg&key={{APIKey}}&token={{Token}}&idOrganization=64c64e1a50843c4a865bb7cd",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "nowazorg"
+						},
+						{
+							"key": "key",
+							"value": "{{APIKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "idOrganization",
+							"value": "64c64e1a50843c4a865bb7cd"
+						}
+					]
+				}
 			},
 			"response": []
 		},
