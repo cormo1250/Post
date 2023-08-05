@@ -731,6 +731,53 @@
 			"response": []
 		},
 		{
+			"name": "CreateLabelOrganizationRed",
+			"id": "bbb4a732-de7e-489a-8c15-fc5ea6c6e274",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/labels?name=Green&color=green&idBoard=64c65257df251a6d9f63fd72&key={{APIKey}}&token={{Token}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"labels"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Green"
+						},
+						{
+							"key": "color",
+							"value": "green"
+						},
+						{
+							"key": "idBoard",
+							"value": "64c65257df251a6d9f63fd72"
+						},
+						{
+							"key": "key",
+							"value": "{{APIKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "AddChecklistZad1",
 			"id": "ae4121ce-fb80-4f6e-b06d-3d32285a8ea7",
 			"protocolProfileBehavior": {
