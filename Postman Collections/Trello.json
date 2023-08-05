@@ -211,43 +211,8 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "POST",
-				"header": [],
-				"url": {
-					"raw": "https://api.trello.com/1/checklists?idCard=64c64324589447a29d54aec1&key={{APIKey}}&token={{Token}}&name=Nowa CL2&pos=6",
-					"protocol": "https",
-					"host": [
-						"api",
-						"trello",
-						"com"
-					],
-					"path": [
-						"1",
-						"checklists"
-					],
-					"query": [
-						{
-							"key": "idCard",
-							"value": "64c64324589447a29d54aec1"
-						},
-						{
-							"key": "key",
-							"value": "{{APIKey}}"
-						},
-						{
-							"key": "token",
-							"value": "{{Token}}"
-						},
-						{
-							"key": "name",
-							"value": "Nowa CL2"
-						},
-						{
-							"key": "pos",
-							"value": "6"
-						}
-					]
-				}
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		},
