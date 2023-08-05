@@ -875,7 +875,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/checklists?idCard=64ce2cd7eec864dd66b83551&key={{APIKey}}&token={{Token}}&name=Checklista1",
+					"raw": "https://api.trello.com/1/checklists?idCard=64ce2d362ec91742dd0fc351&key={{APIKey}}&token={{Token}}&name=Checklista3",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -889,7 +889,7 @@
 					"query": [
 						{
 							"key": "idCard",
-							"value": "64ce2cd7eec864dd66b83551"
+							"value": "64ce2d362ec91742dd0fc351"
 						},
 						{
 							"key": "key",
@@ -901,8 +901,7 @@
 						},
 						{
 							"key": "name",
-							"value": "Checklista1",
-							"type": "text"
+							"value": "Checklista3"
 						}
 					]
 				}
