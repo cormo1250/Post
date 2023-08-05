@@ -211,8 +211,43 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/checklists?idCard=64c64324589447a29d54aec1&key={{APIKey}}&token={{Token}}&name=Nowa CL2&pos=6",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"checklists"
+					],
+					"query": [
+						{
+							"key": "idCard",
+							"value": "64c64324589447a29d54aec1"
+						},
+						{
+							"key": "key",
+							"value": "{{APIKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "name",
+							"value": "Nowa CL2"
+						},
+						{
+							"key": "pos",
+							"value": "6"
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -223,8 +258,50 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.trello.com/1/checklists/64c647f8ae5b584e7d0343b4?key={{APIKey}}&token={{Token}}&name=zmienione",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"checklists",
+						"64c647f8ae5b584e7d0343b4"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{APIKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "id",
+							"value": "64c647f8ae5b584e7d0343b4",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "zmienione"
+						}
+					]
+				}
 			},
 			"response": []
 		},
