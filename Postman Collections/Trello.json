@@ -607,7 +607,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/lists?name=Done&idBoard=64c65257df251a6d9f63fd72&key={{APIKey}}&token={{Token}}",
+					"raw": "https://api.trello.com/1/lists?name=In progress&idBoard=64c65257df251a6d9f63fd72&key={{APIKey}}&token={{Token}}",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -621,7 +621,7 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "Done"
+							"value": "In progress"
 						},
 						{
 							"key": "idBoard",
