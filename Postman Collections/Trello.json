@@ -307,7 +307,48 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/organizations/64c64e1a50843c4a865bb7cd/boards?key={{APIKey}}&token={{Token}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"organizations",
+						"64c64e1a50843c4a865bb7cd",
+						"boards"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{APIKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "id",
+							"value": "64c64e1a50843c4a865bb7cd",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "filter",
+							"value": "all",
+							"disabled": true
+						},
+						{
+							"key": "field",
+							"value": "all",
+							"disabled": true
+						}
+					]
+				}
 			},
 			"response": []
 		},
