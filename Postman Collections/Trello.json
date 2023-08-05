@@ -380,7 +380,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/cards?idList=64ce2c1bf6a850ab3255e2b4&key={{APIKey}}&token={{Token}}&name=Zadanie1&desc=Zadanie pierwsze",
+					"raw": "https://api.trello.com/1/cards?idList=64ce2c1bf6a850ab3255e2b4&key={{APIKey}}&token={{Token}}&name=Zadanie4&desc=Zadanie czwarte",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -406,11 +406,11 @@
 						},
 						{
 							"key": "name",
-							"value": "Zadanie1"
+							"value": "Zadanie4"
 						},
 						{
 							"key": "desc",
-							"value": "Zadanie pierwsze"
+							"value": "Zadanie czwarte"
 						}
 					]
 				}
