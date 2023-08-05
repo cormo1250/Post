@@ -690,8 +690,43 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/labels?name=Green&color=green&idBoard=64c65257df251a6d9f63fd72&key={{APIKey}}&token={{Token}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"labels"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Green"
+						},
+						{
+							"key": "color",
+							"value": "green"
+						},
+						{
+							"key": "idBoard",
+							"value": "64c65257df251a6d9f63fd72"
+						},
+						{
+							"key": "key",
+							"value": "{{APIKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						}
+					]
+				}
 			},
 			"response": []
 		},
