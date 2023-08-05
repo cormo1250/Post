@@ -422,7 +422,7 @@
 			"response": []
 		},
 		{
-			"name": "CreateListOrganizationDone Copy",
+			"name": "CreateListOrganizationInProgress",
 			"id": "b687c714-970d-42dc-b5ee-8a13c31ad349",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
