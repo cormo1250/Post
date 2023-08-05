@@ -330,8 +330,43 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/cards?idList=64ce2c1bf6a850ab3255e2b4&key={{APIKey}}&token={{Token}}&name=Zadanie1&desc=Zadanie pierwsze",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards"
+					],
+					"query": [
+						{
+							"key": "idList",
+							"value": "64ce2c1bf6a850ab3255e2b4"
+						},
+						{
+							"key": "key",
+							"value": "{{APIKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "name",
+							"value": "Zadanie1"
+						},
+						{
+							"key": "desc",
+							"value": "Zadanie pierwsze"
+						}
+					]
+				}
 			},
 			"response": []
 		},
