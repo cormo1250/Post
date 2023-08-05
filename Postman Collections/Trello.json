@@ -199,8 +199,43 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/cards?idList=64c631c9084b1325bfa4bdc1&key={{APIKey}}&token={{Token}}&name=Druga Kartka&desc=drugie desription",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards"
+					],
+					"query": [
+						{
+							"key": "idList",
+							"value": "64c631c9084b1325bfa4bdc1"
+						},
+						{
+							"key": "key",
+							"value": "{{APIKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "name",
+							"value": "Druga Kartka"
+						},
+						{
+							"key": "desc",
+							"value": "drugie desription"
+						}
+					]
+				}
 			},
 			"response": []
 		},
